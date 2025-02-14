@@ -1,0 +1,95 @@
+:root {
+    --gap: 20px;
+    --bs-primary-text-emphasis: #006B99;
+    --bs-accordion-bg: #E6F7FF;
+    --link-hover-color: orange;
+}
+
+.carousel .slide {
+    padding-bottom: var(--gap);
+}
+
+.carousel-inner {
+    border-radius: 10px;
+}
+
+aside h3 {
+    margin: 5px 0;
+}
+
+.text {
+    margin-top: var(--gap);
+}
+
+h1, h2, h3, h4 {
+    color: var(--bs-primary-text-emphasis);
+}
+
+.navbar-nav a {
+    color: #0070A0;
+    font-size: 18px;
+}
+
+.aside-links {
+    color: var(--bs-primary-text-emphasis);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.aside-links:hover {
+    color: var(--link-hover-color);
+    transition: .3s linear;
+}
+
+button span {
+    padding: 5px;
+}
+
+.accordion-item {
+    background-color: #D8E9FF;
+}
+
+.custom-section {
+    background-color: #EAF7FF;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+.custom-btn {
+    background-color: #0074B7;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.custom-btn:hover {
+    background-color: #005a91;
+}
+
+.features {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.features i {
+    color: #0074B7;
+    margin-right: 5px;
+}
+
+.img-fluid {
+    padding: var(--gap);
+}
+
+form {
+    padding: var(--gap);
+}
+
+.form-check-input:checked {
+    background-color: #0074B7;
+    border-color: #0074B7;
+}
